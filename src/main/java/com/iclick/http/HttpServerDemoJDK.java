@@ -17,7 +17,7 @@ import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpServer;
 @SuppressWarnings("restriction")
-public class HttpServerDemo {
+public class HttpServerDemoJDK {
 	public static void main(String[] args) throws IOException {
 		InetSocketAddress addr = new InetSocketAddress("192.168.118.16", 8082);
 		System.out.println(addr.getAddress());
